@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fffcec3b-4df9-4c2e-bd4b-e1d7de5e7900}</ProjectGuid>
-    <RootNamespace>My0125약수의합</RootNamespace>
+    <ProjectGuid>{0caa814a-8297-4851-bf3b-59c8a50c6c4e}</ProjectGuid>
+    <RootNamespace>My0125정수제곱근판별</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="0125 - 약수의합.cpp" />
+    <ClCompile Include="0125 - 정수 제곱근 판별.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fffcec3b-4df9-4c2e-bd4b-e1d7de5e7900}</ProjectGuid>
-    <RootNamespace>My0125약수의합</RootNamespace>
+    <ProjectGuid>{395051d0-20de-4c78-bd78-9df159217047}</ProjectGuid>
+    <RootNamespace>My0125자연수뒤집어배열로만들기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="0125 - 약수의합.cpp" />
+    <ClCompile Include="0125 - 자연수 뒤집어 배열로 만들기.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
