@@ -103,9 +103,7 @@ int solution(const char* babbling[], size_t babbling_len) {
         if (Flag == true)
         {
             Result++;
-        }
-
-      
+        }  
     }
 
 
