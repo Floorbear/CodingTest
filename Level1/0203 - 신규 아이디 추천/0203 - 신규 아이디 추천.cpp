@@ -104,6 +104,56 @@ string solution(string new_id) {
         answer.erase(15, answer.size() - 1);
     }
 
+    {
+        //Phase3 점제거
+        bool IsDeleteDot = true;
+        while (IsDeleteDot)
+        {
+            IsDeleteDot = false;
+            for (int i = 0; i < answer.size(); i++)
+            {
+                if (answer[i] == '.')
+                {
+                    if (i + 1 < answer.size())
+                    {
+                        if (answer[i + 1] == '.')
+                        {
+                            answer[i + 1] = ' ';
+                            IsDeleteDot = true;
+                        }
+                    }
+                }
+            }
+            answer = DeleteSpace(answer);
+        }
+
+        //Phase4 양 끝점 제거
+        bool IsDeleteEdge = true;
+        while (IsDeleteEdge)
+        {
+            IsDeleteEdge = false;
+            if (answer[0] == '.')
+            {
+                answer[0] = ' ';
+                IsDeleteEdge = true;
+            }
+
+            if (answer[answer.size() - 1] == '.')
+            {
+                answer[answer.size() - 1] = ' ';
+                IsDeleteEdge = true;
+            }
+
+            answer = DeleteSpace(answer);
+        }
+
+        //Phase5 빈문자열이면 a 대입
+        if (answer.empty() == true)
+        {
+            answer += "a";
+        }
+    }
+
     //Phase7 문자열 늘리기
     if (answer.size() <= 2)
     {
