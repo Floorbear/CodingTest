@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ccd57d4a-9cd8-4b32-b210-02c9be566e9e}</ProjectGuid>
-    <RootNamespace>옹알이2</RootNamespace>
+    <ProjectGuid>{2089b476-b0f2-48ad-96d2-c58700212f1f}</ProjectGuid>
+    <RootNamespace>My02073진법뒤집기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>0206 - 옹알이 (2)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="옹알이 (2).cpp" />
+    <ClCompile Include="0207 - 3진법 뒤집기.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
