@@ -1,32 +1,47 @@
-﻿#include <iostream>
-#include <stdio.h>
-#include <string>
+﻿#include <string>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
-int solution(vector<int> d, int budget) {
-    sort(d.begin(), d.end(), [](int a, int b) {return a < b; });
-    int Result = 0;
-    while (budget >= 0 && Result < d.size())
+string solution(string s, int n) {
+    for (int i = 0; i < s.size(); i++)
     {
-        if (budget - d[Result] >= 0)
+        if (s[i] == ' ')
         {
-            budget -= d[Result];
-            Result++;
+            continue;
         }
-        else
+
+        if (s[i] >= 'a' && s[i] <= 'z')
         {
-            budget -= d[Result];
+            for (int j = 0; j < n; j++)
+            {
+                s[i]++;
+                if (s[i] > 'z')
+                {
+                    s[i] -= 26;
+                }
+            }
+            
+        }
+
+        if (s[i] >= 'A' && s[i] <= 'Z')
+        {
+            for (int j = 0; j < n; j++)
+            {
+                s[i]++;
+                if (s[i] > 'Z')
+                {
+                    s[i] -= 26;
+                }
+            }
         }
     }
-    return Result;
+    return s;
 }
 
 int main()
 {
-    solution({ 1,3,2,5,4 },9);//3
+    solution("AB", 25);//return ㅠㅊ
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
