@@ -87,6 +87,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0210 - 시저 암호", "Lev
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0210 - [카카오 인턴] 키패드 누르기", "Level1\0210 - [카카오 인턴] 키패드 누르기\0210 - [카카오 인턴] 키패드 누르기.vcxproj", "{74BC0083-B82D-440A-99AA-7C9EA33C9E33}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0213 - 신고 결과 받기", "Level1\0213 - 신고 결과 받기\0213 - 신고 결과 받기.vcxproj", "{7DD4F01A-B482-4862-AEB5-C1853645DDE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -415,6 +417,14 @@ Global
 		{74BC0083-B82D-440A-99AA-7C9EA33C9E33}.Release|x64.Build.0 = Release|x64
 		{74BC0083-B82D-440A-99AA-7C9EA33C9E33}.Release|x86.ActiveCfg = Release|Win32
 		{74BC0083-B82D-440A-99AA-7C9EA33C9E33}.Release|x86.Build.0 = Release|Win32
+		{7DD4F01A-B482-4862-AEB5-C1853645DDE5}.Debug|x64.ActiveCfg = Debug|x64
+		{7DD4F01A-B482-4862-AEB5-C1853645DDE5}.Debug|x64.Build.0 = Debug|x64
+		{7DD4F01A-B482-4862-AEB5-C1853645DDE5}.Debug|x86.ActiveCfg = Debug|Win32
+		{7DD4F01A-B482-4862-AEB5-C1853645DDE5}.Debug|x86.Build.0 = Debug|Win32
+		{7DD4F01A-B482-4862-AEB5-C1853645DDE5}.Release|x64.ActiveCfg = Release|x64
+		{7DD4F01A-B482-4862-AEB5-C1853645DDE5}.Release|x64.Build.0 = Release|x64
+		{7DD4F01A-B482-4862-AEB5-C1853645DDE5}.Release|x86.ActiveCfg = Release|Win32
+		{7DD4F01A-B482-4862-AEB5-C1853645DDE5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -460,6 +470,7 @@ Global
 		{63377F9E-0A6A-4ADB-9036-04C013A48B1A} = {FB3F2E0A-799D-4F3D-8C62-65A4F3A25B63}
 		{45E66338-9DA1-4CDE-80C2-61940444A6E5} = {FB3F2E0A-799D-4F3D-8C62-65A4F3A25B63}
 		{74BC0083-B82D-440A-99AA-7C9EA33C9E33} = {FB3F2E0A-799D-4F3D-8C62-65A4F3A25B63}
+		{7DD4F01A-B482-4862-AEB5-C1853645DDE5} = {FB3F2E0A-799D-4F3D-8C62-65A4F3A25B63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F5F5B92-289F-4222-8C1E-8C746E6284EB}
