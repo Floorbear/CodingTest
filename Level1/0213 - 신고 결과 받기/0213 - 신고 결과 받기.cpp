@@ -118,12 +118,7 @@ vector<int> solution(vector<string> id_list, vector<string> report, int k) {
         ss >> Token2;
         Manager.Insert(Token1,Token2);
     }
-
     Manager.CalculateReported();
-
-
-
-
     return Manager.GetResult();
 }
 
