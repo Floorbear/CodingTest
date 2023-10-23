@@ -37,7 +37,7 @@ vector<int> solution(vector<int> sequence, int k) {
 
 	vector<Sequence> Candidates_1;
 	vector<Sequence> Candidates_2;
-	int MostShortLength = -1;
+	int MostShortLength = -1; // -1일 경우 첫 번째 인덱스를 최솟값으로
 
 	int SumValue = sequence[0];
 
