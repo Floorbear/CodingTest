@@ -89,13 +89,23 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0210 - [카카오 인턴] �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0213 - 신고 결과 받기", "Level1\0213 - 신고 결과 받기\0213 - 신고 결과 받기.vcxproj", "{7DD4F01A-B482-4862-AEB5-C1853645DDE5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0306 - 삼총사", "Level1\0306 - 삼총사\0306 - 삼총사.vcxproj", "{C3B0C5DF-7948-49E5-A580-7E6ED81DE7E4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level2", "Level2", "{12765615-0C74-4CD6-92A1-F513B2519F33}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level2", "Level2", "{F7902AA8-7560-4782-89C8-8361C54FEC2E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0921 - 요격 시스템", "0921 - 요격 시스템\0921 - 요격 시스템.vcxproj", "{020F23C4-4769-4AF4-B6F8-CCF311BA1C93}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1023 - 연속된 부분 수열의 합", "Level2\1023 - 연속된 부분 수열의 합\1023 - 연속된 부분 수열의 합.vcxproj", "{4ADC611A-94F0-42AD-9C9C-37C6BDF49758}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0309 - 무인도 여행", "Level2\0309 - 무인도 여행\0309 - 무인도 여행.vcxproj", "{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0313 - 최소직사각형", "Level1\0313 - 최소직사각형\0313 - 최소직사각형.vcxproj", "{17E018D9-8CFE-4A80-94AA-AD230A6263A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0313 - [1차] 비밀지도", "Level1\0313 - [1차] 비밀지도\0313 - [1차] 비밀지도.vcxproj", "{7772F20F-3453-4B3B-8621-37D50104CA8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0315 - 문자열 내 마음대로 정렬하기", "Level1\0315 - 문자열 내 마음대로 정렬하기\0315 - 문자열 내 마음대로 정렬하기.vcxproj", "{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0315 - 숫자 문자열과 영단어", "Level1\0315 - 숫자 문자열과 영단어\0315 - 숫자 문자열과 영단어.vcxproj", "{3F808480-DF06-410E-8D0F-B4ECE6025658}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -457,6 +467,46 @@ Global
 		{4ADC611A-94F0-42AD-9C9C-37C6BDF49758}.Release|x64.Build.0 = Release|x64
 		{4ADC611A-94F0-42AD-9C9C-37C6BDF49758}.Release|x86.ActiveCfg = Release|Win32
 		{4ADC611A-94F0-42AD-9C9C-37C6BDF49758}.Release|x86.Build.0 = Release|Win32
+		{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B}.Debug|x64.ActiveCfg = Debug|x64
+		{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B}.Debug|x64.Build.0 = Debug|x64
+		{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B}.Debug|x86.ActiveCfg = Debug|Win32
+		{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B}.Debug|x86.Build.0 = Debug|Win32
+		{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B}.Release|x64.ActiveCfg = Release|x64
+		{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B}.Release|x64.Build.0 = Release|x64
+		{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B}.Release|x86.ActiveCfg = Release|Win32
+		{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B}.Release|x86.Build.0 = Release|Win32
+		{17E018D9-8CFE-4A80-94AA-AD230A6263A4}.Debug|x64.ActiveCfg = Debug|x64
+		{17E018D9-8CFE-4A80-94AA-AD230A6263A4}.Debug|x64.Build.0 = Debug|x64
+		{17E018D9-8CFE-4A80-94AA-AD230A6263A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{17E018D9-8CFE-4A80-94AA-AD230A6263A4}.Debug|x86.Build.0 = Debug|Win32
+		{17E018D9-8CFE-4A80-94AA-AD230A6263A4}.Release|x64.ActiveCfg = Release|x64
+		{17E018D9-8CFE-4A80-94AA-AD230A6263A4}.Release|x64.Build.0 = Release|x64
+		{17E018D9-8CFE-4A80-94AA-AD230A6263A4}.Release|x86.ActiveCfg = Release|Win32
+		{17E018D9-8CFE-4A80-94AA-AD230A6263A4}.Release|x86.Build.0 = Release|Win32
+		{7772F20F-3453-4B3B-8621-37D50104CA8E}.Debug|x64.ActiveCfg = Debug|x64
+		{7772F20F-3453-4B3B-8621-37D50104CA8E}.Debug|x64.Build.0 = Debug|x64
+		{7772F20F-3453-4B3B-8621-37D50104CA8E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7772F20F-3453-4B3B-8621-37D50104CA8E}.Debug|x86.Build.0 = Debug|Win32
+		{7772F20F-3453-4B3B-8621-37D50104CA8E}.Release|x64.ActiveCfg = Release|x64
+		{7772F20F-3453-4B3B-8621-37D50104CA8E}.Release|x64.Build.0 = Release|x64
+		{7772F20F-3453-4B3B-8621-37D50104CA8E}.Release|x86.ActiveCfg = Release|Win32
+		{7772F20F-3453-4B3B-8621-37D50104CA8E}.Release|x86.Build.0 = Release|Win32
+		{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA}.Debug|x64.ActiveCfg = Debug|x64
+		{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA}.Debug|x64.Build.0 = Debug|x64
+		{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA}.Debug|x86.Build.0 = Debug|Win32
+		{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA}.Release|x64.ActiveCfg = Release|x64
+		{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA}.Release|x64.Build.0 = Release|x64
+		{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA}.Release|x86.ActiveCfg = Release|Win32
+		{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA}.Release|x86.Build.0 = Release|Win32
+		{3F808480-DF06-410E-8D0F-B4ECE6025658}.Debug|x64.ActiveCfg = Debug|x64
+		{3F808480-DF06-410E-8D0F-B4ECE6025658}.Debug|x64.Build.0 = Debug|x64
+		{3F808480-DF06-410E-8D0F-B4ECE6025658}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F808480-DF06-410E-8D0F-B4ECE6025658}.Debug|x86.Build.0 = Debug|Win32
+		{3F808480-DF06-410E-8D0F-B4ECE6025658}.Release|x64.ActiveCfg = Release|x64
+		{3F808480-DF06-410E-8D0F-B4ECE6025658}.Release|x64.Build.0 = Release|x64
+		{3F808480-DF06-410E-8D0F-B4ECE6025658}.Release|x86.ActiveCfg = Release|Win32
+		{3F808480-DF06-410E-8D0F-B4ECE6025658}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -506,6 +556,11 @@ Global
 		{C3B0C5DF-7948-49E5-A580-7E6ED81DE7E4} = {FB3F2E0A-799D-4F3D-8C62-65A4F3A25B63}
 		{020F23C4-4769-4AF4-B6F8-CCF311BA1C93} = {F7902AA8-7560-4782-89C8-8361C54FEC2E}
 		{4ADC611A-94F0-42AD-9C9C-37C6BDF49758} = {F7902AA8-7560-4782-89C8-8361C54FEC2E}
+		{ADD6DA02-A6F7-461D-9ECA-9E917C2B1B0B} = {12765615-0C74-4CD6-92A1-F513B2519F33}
+		{17E018D9-8CFE-4A80-94AA-AD230A6263A4} = {FB3F2E0A-799D-4F3D-8C62-65A4F3A25B63}
+		{7772F20F-3453-4B3B-8621-37D50104CA8E} = {FB3F2E0A-799D-4F3D-8C62-65A4F3A25B63}
+		{A6CC3C00-DA8C-41FC-9E7F-E2122FD7F1DA} = {FB3F2E0A-799D-4F3D-8C62-65A4F3A25B63}
+		{3F808480-DF06-410E-8D0F-B4ECE6025658} = {FB3F2E0A-799D-4F3D-8C62-65A4F3A25B63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F5F5B92-289F-4222-8C1E-8C746E6284EB}
